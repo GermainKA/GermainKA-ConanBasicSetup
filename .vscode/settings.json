@@ -1,0 +1,11 @@
+{
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "C_Cpp.default.compilerPath": "/usr/bin/clang++",
+    "C_Cpp.default.intelliSenseMode": "clang-x64",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/compile_commands.json",
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}",
+        "--background-index",
+        "--pch-storage=memory"
+    ]
+}
